@@ -2,11 +2,12 @@
 
 :root {
 	--bg-color: #94d8e3;
-	--alt-bg-color: #0000004d;
+  --alt-bg-color: #0000004d;
 	--font-color: #ffffff;
-	--alt-font-color: #222222;
+  	--alt-font-color: #222222;
 	--primary-color: #607d8b;
-	--secondary-color: #93B5C6;
+ 	--secondary-color: #93B5C6;
+ 
 }
 .dark {
 	--bg-color: #003950;
