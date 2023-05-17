@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub, FaInstagram, FaTelegram, FaMedium} from 'react-icons/fa'
 import { v4 as uuid } from "uuid";
 import { DragDropContext } from "react-beautiful-dnd";
 import List from "./components/List";
@@ -143,7 +143,11 @@ const App = () => {
     </div>
 	<div class="footer">
 		<a href='https://github.com/raj-28' target='_blank' rel="noopener noreferrer"><FaGithub className='github'/></a>
-	</div>
+    <a href='https://instagram.com/errormania404' target='_blank' rel="noopener noreferrer"><FaInstagram className='github'/></a>
+    <a href='https://t.me/nodereact' target='_blank' rel="noopener noreferrer"><FaTelegram className='github'/></a>
+    <a href='https://medium.com/@masterrajpatel' target='_blank' rel="noopener noreferrer"><FaMedium className='github'/></a>
+
+  </div>
 	</>
   );
 };
